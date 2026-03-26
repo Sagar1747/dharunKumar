@@ -1,4 +1,8 @@
 #include<stdio.h>
+#include "sizeOfArray.h"
+
+
+
 int largest(int arr[],int n){
     int temp;
     temp = *arr;
@@ -9,9 +13,8 @@ int largest(int arr[],int n){
         
     }
     return temp;
-int count (int arr[]);
-
-
+    
+    
 }
 int main(){
     
@@ -19,5 +22,6 @@ int main(){
     int n = count(arr);
     int large = largest(arr,n);
     printf("Largest number: %d",large);
+    
 
 }
