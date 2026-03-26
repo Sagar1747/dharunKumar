@@ -12,22 +12,9 @@ int largest(int arr[],int n){
 
 
 }
-
-
-void fun(short i, short k){
-    printf("%d %d",i,k);
-
-}
-
-
 int main(){
-   
-    int a = 122344567893.30;
-    
-
-    short k = 20;
-
-    fun(a,k);
-
+    int arr[] = {45,3,12,67,23,1};
+    int large = largest(arr,6);
+    printf("Largest number: %d",large);
 
 }
