@@ -18,10 +18,13 @@ int largest(int arr[],int n){
 }
 int main(){
     
-    int arr[] = {45,3,12,67,23,1};
+    int arr[] = {45,3,12,67,23,1,-1}; // end is specified as  -1
+
+
     int n = count(arr);
     int large = largest(arr,n);
-    printf("Largest number: %d",large);
+    printf("Largest number: %d\n",large);
+    printf("Lenght of array is : %d",n);
     
 
 }

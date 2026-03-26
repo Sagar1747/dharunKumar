@@ -1,8 +1,11 @@
+#include "sizeOfArray.h"
 
-int count(int arr[]){
+int count(int arr[]) {
+    int i = 0;
 
-    int temp ;
-    temp = sizeof(arr)/sizeof(arr[0]);
-    return temp;
+    while (arr[i] != -1) {
+        i++;
+    }
 
+    return i; 
 }
