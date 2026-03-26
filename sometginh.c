@@ -13,7 +13,8 @@ int largest(int arr[],int n){
 
 }
 int main(){
-    int large = largest({45,3,12,67,23,1},6);
+    int arr[] = {45,3,12,67,23,1};
+    int large = largest(arr,6);
     printf("Largest number: %d",large);
 
 }
