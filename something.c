@@ -25,6 +25,9 @@ int main(){
     int large = largest(arr,n);
     printf("Largest number: %d\n",large);
     printf("Lenght of array is : %d",n);
+    int mn,mx;
+    minmax(arr,n,&mx,&mn);
+    printf("Max is :%d\t min is %d\n",mn,mx);
     
 
 }
