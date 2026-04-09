@@ -18,16 +18,19 @@ int largest(int arr[],int n){
 }
 int main(){
     
-    int arr[] = {45,3,12,67,23,1,-1}; // end is specified as  -1
+    int arr[] = {45,3,12,67,23,2,-1}; // end is specified as  -1
 
 
     int n = count(arr);
+    n++;
+    
     int large = largest(arr,n);
+
     printf("Largest number: %d\n",large);
-    printf("Lenght of array is : %d",n);
-    int mn,mx;
+    printf("Lenght of array is : %d\n",n);
+    int mn=1000,mx=0;
     minmax(arr,n,&mx,&mn);
-    printf("Max is :%d\t min is %d\n",mn,mx);
+    printf("Max is :%d\t min is %d\n",mx,mn);
     
     //    gcc .\something.c .\sizeOfArray.c .\minMaxFunc.c -o output
     // output.exe
