@@ -29,5 +29,6 @@ int main(){
     minmax(arr,n,&mx,&mn);
     printf("Max is :%d\t min is %d\n",mn,mx);
     
-
+    //    gcc .\something.c .\sizeOfArray.c .\minMaxFunc.c -o output
+    // output.exe
 }
